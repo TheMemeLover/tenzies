@@ -108,6 +108,7 @@ export default function App() {
     
     return (
         <>
+            <h3 className="record">Made by Daniel Wang</h3>
             <main>
                 {tenzies && <Confetti />}
                 <div className="title--section">
