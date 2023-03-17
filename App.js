@@ -117,7 +117,7 @@ export default function App() {
                 <h3 className="time">{`${time.minutes < 10 ? "0" + time.minutes : time.minutes} : ${time.seconds < 10 ? "0" + time.seconds : time.seconds}`}</h3>
                 </div>
                 <p className="instructions">Roll until all dice are the same. 
-                Click each die to freeze it at its current value between rolls.</p>
+                Click a die to freeze it at its current value between rolls.</p>
                 <div className="dice-container">
                     {diceElements}
                 </div>
