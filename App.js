@@ -131,7 +131,7 @@ export default function App() {
                 </button>
                 
             </main>
-            <h3 className="record">Best Turns: {localStorage.getItem("recordTurns")}</h3>
+            <h3 className="record">Lowest Turns: {localStorage.getItem("recordTurns")}</h3>
             <h3 className="record">Best Time: {Math.floor(localStorage.getItem("recordTime")/60) < 10 ? "0" + Math.floor(localStorage.getItem("recordTime")/60) : Math.floor(localStorage.getItem("recordTime")/60) } : {(localStorage.getItem("recordTime") % 60) < 10 ? "0" + (localStorage.getItem("recordTime") % 60) : (localStorage.getItem("recordTime") % 60)}</h3>
         </>
     )
